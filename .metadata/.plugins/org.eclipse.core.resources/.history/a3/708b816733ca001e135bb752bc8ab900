@@ -1,0 +1,24 @@
+package com.in28minutes.oops;
+
+public class BookRunner {
+
+	public static void main(String[] args) {
+		Book artOfProgramming = new Book();
+		Book effectiveJava = new Book();
+		Book cleanCode = new Book();
+
+		artOfProgramming.setNoOfCopies(100);
+		effectiveJava.setNoOfCopies(50);
+		cleanCode.setNoOfCopies(45);
+		artOfProgramming.increaseNoOfCopies(100);
+		effectiveJava.increaseNoOfCopies(50);
+		cleanCode.increaseNoOfCopies(45);
+		artOfProgramming.decreaseNoOfCopies(100);
+		effectiveJava.decreaseNoOfCopies(50);
+		cleanCode.decreaseNoOfCopies(45);
+
+		System.out.println(artOfProgramming.increaseNoOfCopies());
+		System.out.println(artOfProgramming.decreaseNoOfCopies());
+	}
+	}
+

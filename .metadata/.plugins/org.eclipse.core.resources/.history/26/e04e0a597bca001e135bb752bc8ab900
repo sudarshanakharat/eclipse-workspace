@@ -1,0 +1,16 @@
+package com.in28minutes.java.primitivedatatypes;
+
+public class MyChar {
+
+	private char ch;
+
+	public MyChar(char ch) {
+		this.ch = ch;
+	}
+
+	public boolean isVowel() {
+
+		return false;
+	}
+
+}

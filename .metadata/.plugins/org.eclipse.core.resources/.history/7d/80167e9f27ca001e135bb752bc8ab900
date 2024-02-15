@@ -1,0 +1,18 @@
+package com.in28minutes.oops;
+
+public class MotorBike {
+
+	// state
+	private int speed; // instances variable - cannot be accessed outside the class
+
+	// Behavior
+//for method think about inputs
+	void setSpeed(int speed) { // speed here is local variable
+		System.out.println(speed); // local speed
+		System.out.println(this.speed); // peivate speed
+	}
+
+	void start() { // start method created
+		System.out.println("Bike started");
+	}
+}

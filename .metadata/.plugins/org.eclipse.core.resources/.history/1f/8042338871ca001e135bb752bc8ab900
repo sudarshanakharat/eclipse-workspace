@@ -1,0 +1,10 @@
+package com.in28minutes.java.SimpleInterest;
+
+public class SimpleInterestCalculator {
+	
+	BigDecimal principal;
+	public SimpleInterestCalculator(String principal, String interest) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

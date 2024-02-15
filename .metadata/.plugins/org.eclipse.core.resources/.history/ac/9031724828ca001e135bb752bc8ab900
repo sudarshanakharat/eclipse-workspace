@@ -1,0 +1,13 @@
+package com.in28minutes.oops;
+
+public class Book {
+	// noOfCopies of the book
+	private int noOfCopies;
+
+	public void noOfCopies(int noOfCopies) {
+		this.noOfCopies = noOfCopies;
+	}
+	// artOfProgramming
+	// effectiveJava
+	// cleanCode
+}

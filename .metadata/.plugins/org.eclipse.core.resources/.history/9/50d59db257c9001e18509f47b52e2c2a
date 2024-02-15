@@ -1,0 +1,10 @@
+package com.in28minutes.oops;
+
+public class Book {
+	//noOfCopies of the book
+	int noOfCopies;
+	
+	//artOfProgramming
+	//effectiveJava
+	//cleanCode
+}

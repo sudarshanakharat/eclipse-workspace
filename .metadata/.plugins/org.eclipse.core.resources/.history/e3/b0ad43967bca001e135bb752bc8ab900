@@ -1,0 +1,14 @@
+package com.in28minutes.java.primitivedatatypes;
+
+public class MyCharRunner {
+
+	public static void main(String[] args) {
+		MyChar mychar = new MyChar('c');
+		System.out.println(MyChar.isVowel(a)); // 'a','e', 'i','o','u' and capitals
+		// System.out.println(mychar.isNumber());
+		// System.out.println(mychar.isAlphabet());
+		// MyChar.printLowerCaseAlphabets();
+		// MyChar.printUpperCaseAlphabets();
+	}
+
+}

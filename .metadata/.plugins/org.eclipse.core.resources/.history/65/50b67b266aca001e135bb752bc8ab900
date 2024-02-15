@@ -1,0 +1,15 @@
+package com.in28minutes.java.primitivedatatypes;
+
+public class BiNimberRunner {
+	
+	public class void main(String[] args) {
+		
+		BiNumber numbers = new BiNumber(2,3);
+		System.out.println(numbers.add());
+		System.out.println(numbers.add());
+		numbers.double();
+		System.out.println(numbers.getNumber1());
+		System.out.println(numbers.getNumber2());
+	}
+
+}
